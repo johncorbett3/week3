@@ -29,6 +29,13 @@ function pageLoad() {
 
   // 🔥🔥🔥 YOUR CODE GOES HERE 🔥🔥🔥
   console.log(database)
+  
+  numberOfProducts = database.products.length
+  console.log(numberOfProducts)
+
+  products = []
+
+
 
   //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
 }
